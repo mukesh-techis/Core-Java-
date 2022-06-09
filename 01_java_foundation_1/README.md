@@ -1,1 +1,1 @@
-<h1 style=color:"red">Java</h1>
+<center><h1>Java</h1></center>
