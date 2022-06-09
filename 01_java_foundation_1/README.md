@@ -1,4 +1,13 @@
-<h2>What is java?</h2>
+Java
+Introduction to java
+(Everything in java is an Object)
+
+	Java is a general purpose high level programming language used to develop various applications. It provides development platforms for various kinds of applications.
+Editions of java
+Java2 SE (Standard Edition)
+Java2 EE(Enterprise Edition)
+Java2 ME(Micro Edition)
+
 
 Java is one of the most popular languages in the coding world! It is owned by Oracle, and more than 3 billion devices run Java.
 It is used for:
