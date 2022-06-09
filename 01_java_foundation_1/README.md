@@ -20,3 +20,6 @@ In Terminal/command prompt:
 * Java –-version
 * Javac --version
 
+<h3>Expected Output:</h3>
+
+!
