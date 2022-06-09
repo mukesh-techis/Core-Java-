@@ -13,8 +13,8 @@ S-1: install java jdk in your PC based on your Operating System
 * For Windows: 
 * For Linux: 
 
- S-2: check for java version to confirm whether java is successfully installed or not.
-	In Terminal/command prompt:
+S-2: check for java version to confirm whether java is successfully installed or not.
+In Terminal/command prompt:
   
 * Java –-version
 * Javac --version
