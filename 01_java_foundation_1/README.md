@@ -1,4 +1,4 @@
-                                                             <h2>What is java?</h2>
+<h2>What is java?</h2>
 
 Java is one of the most popular languages in the coding world! It is owned by Oracle, and more than 3 billion devices run Java.
 It is used for:
