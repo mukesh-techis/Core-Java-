@@ -1,6 +1,6 @@
 <h1>Java</h1>
 <h3>Introduction to Java</h3>
-Java is a general purpose high level programming language used to develop various applications. It provides development platforms for various kinds of applications.
+  Java is a general purpose high level programming language used to develop various applications. It provides development platforms for various kinds of applications.
 <h3>Editions of Java</h3>
 
 * Java2 SE (Standard Edition)
@@ -14,6 +14,7 @@ S-1: install java jdk in your PC based on your Operating System
 * For Linux: 
 
 S-2: check for java version to confirm whether java is successfully installed or not.
+
 In Terminal/command prompt:
   
 * Java –-version
