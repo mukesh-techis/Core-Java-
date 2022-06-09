@@ -6,3 +6,8 @@ Java is a general purpose high level programming language used to develop variou
 * Java2 SE (Standard Edition)
 * Java2 EE(Enterprise Edition)
 * Java2 ME(Micro Edition)
+<h3>To run java in your System:</h3>
+S-1: install java jdk in your PC based on your Operating System
+*For macOS:
+*For Windows: 
+*For Linux: 
