@@ -1,6 +1,7 @@
 <h1>Java</h1>
 <h3>Introduction to Java</h3>
-  Java is a general purpose high level programming language used to develop various applications. It provides development platforms for various kinds of applications.
+<span style="font-family:sans-serief">
+  Java is a general purpose high level programming language used to develop various applications. It provides development platforms for various kinds of applications.</span>
 <h3>Editions of Java</h3>
 
 * Java2 SE (Standard Edition)
