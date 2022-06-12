@@ -9,13 +9,13 @@
 * Java2 EE(Enterprise Edition)
 * Java2 ME(Micro Edition)
 <h3>To run java in your System:</h3>
-S-1: install java jdk in your PC based on your Operating System
+**S-1:** install java jdk in your PC based on your Operating System
 
 * [for macOS](https://www.oracle.com/java/technologies/downloads/#jdk18-mac/)
 * [for Windows](https://www.oracle.com/java/technologies/downloads/#jdk18-windows)
 * [for Linux](https://www.oracle.com/java/technologies/downloads/#jdk18-linux)
 
-S-2: check for java version to confirm whether java is successfully installed or not.
+**S-2:** check for java version to confirm whether java is successfully installed or not.
 
 In Terminal/command prompt:
 ``` 
@@ -27,7 +27,7 @@ Javac --version
 ![alt text](https://user-images.githubusercontent.com/100840426/173226680-5f7c0640-a843-4faf-aae0-775268efc46c.png "Title") 
 
 
-S-3: In Visual Studio code install Java extension pack 
+**S-3:** In Visual Studio code install Java extension pack 
 (provided by Microsoft)      
 
 ![vscode-java-extension-pack](https://user-images.githubusercontent.com/100840426/173226857-8d374ae9-73b8-4cb7-9c03-f518cfb2220f.jpeg)    
@@ -36,8 +36,18 @@ S-3: In Visual Studio code install Java extension pack
 
 ### Start your first project
 
-**Print** _Hello world_
+**Print** _Hello world_.    
+
 
 When you save a java program save the file with the extension of .java (i.e) index.java
+
+```
+public class index{
+   public static void main(String[] args){
+   System.out.println("Hello World");
+   }
+}
+```
+### sample output:
 
 
