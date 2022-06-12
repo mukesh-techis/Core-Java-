@@ -25,3 +25,4 @@ In Terminal/command prompt:
 <h3>Expected Output:</h3>
 
 !
+In his beard lived three <span style="color:red">cardinals</span>
