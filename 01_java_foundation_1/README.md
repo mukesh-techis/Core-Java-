@@ -44,10 +44,11 @@ When you save a java program save the file with the extension of .java (i.e) ind
 ```
 public class index{
    public static void main(String[] args){
-   System.out.println("Hello World");
+   System.out.println("Hello World!");
    }
 }
 ```
 ### sample output:
-
-
+```
+Hello World!
+```
