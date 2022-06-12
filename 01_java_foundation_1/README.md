@@ -19,7 +19,7 @@ S-2: check for java version to confirm whether java is successfully installed or
 
 In Terminal/command prompt:
   
-> Java –-version
+> Java –-version   
 > Javac --version
 
 <h3>Expected Output:</h3>
