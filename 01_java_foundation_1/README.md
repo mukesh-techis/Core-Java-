@@ -52,3 +52,19 @@ public class index{
 ```
 Hello World!
 ```
+
+***_Lets not worry about the methods, syntax and statics., however we’ll be learning those concepts in upcoming topics._***
+
+### Comments in Java      
+Java supports single and Multi-line comments          
+```
+// single line comment
+
+/*      
+Multi-line     
+comment       
+*/      
+
+```      
+### Let’s dive a bit deeper into Java Features        
+
