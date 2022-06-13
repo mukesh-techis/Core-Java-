@@ -81,6 +81,44 @@ comment
 - High Performance
 - Distributed
 - Dynamic      
-1.Object Oriented
-Object oriented programming is a methodology that simplifies software development and maintainance by providing some rules.
+### 1.Object Oriented      
+Object oriented programming is a methodology that simplifies software development and maintainance by providing some rules.      
+- Object
+- Class
+- Abstraction
+- Encapsulation
+- Inheritence
+- Polymorphism       
+### 2.Platform Independent     
+Java is platform independent because it follows WORA (Write Once Run Anywhere) concept. The same java program can be executed in different platforms (windows/mac/linux) without making any changes to that program.    
+<p align="center"><img src="https://github.com/mukesh-techis/Core-Java-/blob/main/img/platform%20independent.png?raw=true"  width="350" /></p>         
 
+### 3.Simple      
+Java is designed to be easy to learn. The code is simple and easy to understand        
+### 4.Secure           
+Java language and Java runtime is designed in such a way that it can’t be invaded from outside.
+The byte code that is used for the execution is inspected before execution by Java Runtime Environment(JRE).      
+<p align="center"><img src="https://github.com/mukesh-techis/Core-Java-/blob/main/img/JREdiff.png?raw=true"  width="350" /></p>         
+
+### 5.Portable       
+Being architectural neutral and having no implementation dependent aspects of the specification that makes java portable 
+
+### 6.Robustness (Strong)        
+Java is strong because of its two features,              
+- Dynamic memory management      
+- Runtime error management or Exception handling      
+             
+### 7.Multi-threaded       
+In java it is possible to write programs that can do many tasks simultaneously. This leads to develop smoothly running interactive applications         
+
+### 8.Interpreted    
+Java uses both compiler and Interpreter. Java compiler converts the source code into byte codes. These byte codes are then converted into machine code by Interpreter.
+
+### 9.High Performance
+Just in time (JIT) compiler is responsible for the high performance of java codes, which compiles the code on-demand basis, that means it compiles only the method which is being called.
+
+### 10.Distributed
+Java is distributed because it facilitates users to create distributed applications in java. 
+
+### 11.Dynamic
+Java is considered dynamic because of Bytecode. The source code which is written in one platform and that code can be executed in any platform. It loads the class file during runtime only. Hence, any thing that happens in runtime is dynamic.
