@@ -205,3 +205,24 @@ class sample{
 >12.12345123456789   
 >true   
 >y   		
+
+### Escape Sequences
+There are few escape sequences in java. They are,
+
+<p align="center"><img src="https://github.com/mukesh-techis/Core-Java-/blob/main/img/EscapeSeq.png?raw=true" width="400" /></p>
+
+### Operators        	
+
+Operator is a special symbol that is used to perform operations. There are few types of operators in java. Let’s discuss it one by one.	
+
+1.Arithmetic operators
+
+2.Relational Operators 
+
+3.Assignment Operators 
+
+4.Logical Operators 
+
+5.Bitwise Operators  
+
+6.Conditional Operators	   	
