@@ -215,14 +215,159 @@ There are few escape sequences in java. They are,
 
 Operator is a special symbol that is used to perform operations. There are few types of operators in java. Let’s discuss it one by one.	
 
-1.Arithmetic operators
+- Arithmetic operators
+- relational operators
+- Assignment operators
+- Logical operators
+- Bitwise operators
+- Conditional operators
 
-2.Relational Operators 
+### Arithmetic Operators
+The arithmetic operators are used to perform various arithmetic operations such as algebraic functions. The few Arithmetic operators are +,-,*,/,%,++,-- etc.		
+### Ex program for Arithmetic operators   
+```
+public class arith {
+    public static void main(String[] args){
+        int a = 10;
+        int b = 20;
+        System.out.println("a+b is :"+( a+b));
+        System.out.println("b-a is :"+(b+a));
+        System.out.println("a*b is :"+(a*b));
+        System.out.println("a/b is :"+(b/a));
+        System.out.println("a%b is :"+(b%a));
+        System.out.println("pre increment of a is :" + (++a));
+        System.out.println("post increment of a is :"+ (a++));
+        System.out.println("pre decrement of a is :" + (--b));
+        System.out.println("post decrement of b is :"+ (b--));
+    }   
+}			
+```	
 
-3.Assignment Operators 
+### Expected Output 
+>a+b is :30	     
+>b-a is :30    
+>a*b is :200       
+>a/b is :2      
+>a%b is :0      
+>pre increment of a is :11       
+>post increment of a is :11        
+>pre decrement of a is :19         
+>post decrement of b is :19            
+		
 
-4.Logical Operators 
+  
+### Relational operators    
+Relational operators are used to check the relationship between two operands.
+The few relational operators are  == , < , > , <= , >= , != etc.    
+### Ex program for Relational operators   
+```
+public class relationalex {
+    public static void main(String[] args){
+        int x = 5;
+        int y = 10;
+        System.out.println(x == y);
+        System.out.println(x != y);
+        System.out.println(x > y);
+        System.out.println(x < y);
+        System.out.println(x >= y);
+        System.out.println(x <= y);
+    }   
+}
+```      
+### Expected Output        
+>false       
+>true          
+>false          
+>true            
+>false      
+>true      
 
-5.Bitwise Operators  
+### Logical operators
+The Logical operators are,    
+- AND &&
+- OR ||
+- NOT !            
+### Ex program for logical operators        
+```
+public class logicalex {
+    public static void main(String[] args){
+        boolean a = true;
+        boolean b = false;
+        System.out.println("a && b = "+ (a&&b));
+        System.out.println("a || b = "+(a||b));
+        System.out.println("!(a && b) = " + !(a && b));
+    }   
+}
+```            
+### Expected output          
+>a && b = false               
+>a || b = true              
+>!(a && b) = true             
 
-6.Conditional Operators	   	
+### Assignment operator           
+There are following assignment operators supported by java.      
+They are = , += , -= , *= , /= , %= , <<= , >>= , &= , ^= , |= etc.           
+### Ex program for assignment operator
+```
+public class assignex {
+    public static void main(String[] args){
+        int a = 10;
+        int b = 20;
+        int c;
+        c=a+b;
+        System.out.println("c = a+b is "+c);
+        c += a;
+        System.out.println("c += a is " + c);
+        c -= a;
+        System.out.println("c -= a is " + c);
+        c *= a;
+        System.out.println("c *= a is " + c);
+        a = 10;
+        c = 15;
+        c /= a;
+        System.out.println("c /= a is " + c);
+        a = 10;
+        c = 15;
+        c %= a;
+        System.out.println("c %= a is " + c);
+        c <<= 2;
+        System.out.println("c <<= 2 is " + c);
+        c >>= a;
+        System.out.println("c >>= a is " + c);
+        c &= a ;
+        System.out.println("c &= a is " + c);
+        c ^= a;
+        System.out.println("c ^= a is " + c);
+        c |= a;
+        System.out.println("c |= a is " + c);
+    }   
+}
+```                
+### Expected output         
+>c = a+b is 30        
+>c += a is 40              
+>c -= a is 30             
+>c *= a is 300             
+>c /= a is 1            
+>c %= a is 5             
+>c <<= 2 is 20             
+>c >>= a is 0               
+>c &= a is 0               
+>c ^= a is 10         
+>c |= a is 10           
+### Conditional operator(?:)          
+Conditional operator is also termed as ternary operator. The Ternary operator is written as,           
+`Variable x=(Expression)?value if true:value if false`        
+### Ex program
+```
+public class condionalEx {
+    public static void main(String[] args){
+       int a=10;
+       String result = a % 2 == 0 ? "Even" : "Odd";
+       System.out.println(result);
+    }   
+}
+```
+### Expected output           
+>Even
+
