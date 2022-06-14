@@ -167,5 +167,40 @@ There are two data types available in java. They are,
 1. Primitive data types and 
 2. Reference/Non-primitive data types 
 <p align="center"><img src="https://github.com/mukesh-techis/Core-Java-/blob/main/img/datatypes.png?raw=true" /></p>    
-There are eight primitive data types that are supported by java. Let us know a bit more about when and where to use it.
+There are eight primitive data types that are supported by java. Let us know a bit more about when and where to use it.			
+<p align="center"><img src="https://github.com/mukesh-techis/Core-Java-/blob/main/img/datatypeTable.png?raw=true" width="600"/></p>		
 
+### Example program to understand all data types		
+		
+```
+class sample{
+	public static void main(String[] args){
+		byte b = 100;
+		short s = 123;
+		int i = 12345;
+		long l = 1234567890123L;
+		float f = 12.1234F;
+		double d = 12.12345123456789;
+		boolean bl = true;
+		char ch = 'y';
+		System.out.println(b);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(bl);
+		System.out.println(ch);
+	}
+}	
+```		
+
+### Expected output		
+>100		
+>123	
+>12345	
+>1234567890123	
+>12.1234	
+>12.12345123456789	
+>true	
+>y	
