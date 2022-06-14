@@ -1,50 +1,37 @@
-# Java If ... Else
-## Java Conditions and If Statements
-Java supports the usual logical conditions from mathematics:
-- Less than: a < b
-- Less than or equal to: a <= b
-- Greater than: a > b
-- Greater than or equal to: a >= b
-- Equal to a == b
-- Not Equal to: a != b
+# Control Statements        
+Java provides statements that can be used to control the flow of Java code. Such statements are called control statements. It is one of the fundamental features of Java, which provides a smooth flow of program.          
+1. Decision making Statements
+2. Looping Statements
+3. Jump Statements         
+### Decision making Statements          
+decision-making statements decide which statement to execute and when. It evaluates the Boolean expression and control the program flow depending upon the result of the condition provided. The few Decision making statements are,     
+* Simple if statement
+* if-else statement
+* else-if ladder
+* Nested if-statement
+* Switch statement   
 
-You can use these conditions to perform different actions for different decisions.
 
-Java has the following conditional statements:
 
-- Use if to specify a block of code to be executed, if a specified condition is true
-- Use else to specify a block of code to be executed, if the same condition is false
-- Use else if to specify a new condition to test, if the first condition is false
-- Use switch to specify many alternative blocks of code to be executed
+### Simple if Statement
+If the boolean expression(condition) evaluates to true then the block of code inside the `if` statement will be executed.
 
-# The if Statement
-Use the if statement to specify a block of Java code to be executed if a condition is true.
+### Ex program `if`
 
-Syntax:
-
-```java 
-if (condition) {
-  // block of code to be executed if the condition is true
+```
+public class simpleIf {
+    public static void main(String[] args){
+        int x = 25;
+        if(x<50){
+            System.out.println("This if condition is true");
+        }
+    } 
 }
  ```
+### Expected output        
+> This if condition is true
 
-## Example 1
-
-<img width="439" alt="image" src="https://user-images.githubusercontent.com/101321694/164679802-d0370692-b4ad-481a-b496-45c0dd70784d.png">
-
-Output:
-
-<img width="375" alt="image" src="https://user-images.githubusercontent.com/101321694/164680015-8c413859-d625-40c0-a02a-ada76653f0fe.png">
-
-## Example 2
-
-<img width="441" alt="image" src="https://user-images.githubusercontent.com/101321694/164680184-f6cb0980-bff4-461a-852b-c725883b5c67.png">
-
-Output:
-
-<img width="389" alt="image" src="https://user-images.githubusercontent.com/101321694/164680331-1db23482-2a63-41ad-9340-5deb4857b286.png">
-
-# The else Statement
+### If...Else Statement
 
 Use the else statement to specify a block of code to be executed if the condition is false.
 
