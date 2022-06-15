@@ -4,7 +4,7 @@ Java provides statements that can be used to control the flow of Java code. Such
 2. Looping Statements
 3. Jump Statements         
 ### Decision making Statements          
-decision-making statements decide which statement to execute and when. It evaluates the Boolean expression and control the program flow depending upon the result of the condition provided. The few Decision making statements are,     
+Decision-making statements decide which statement to execute and when. It evaluates the Boolean expression and control the program flow depending upon the result of the condition provided. The few Decision making statements are,     
 * Simple if statement
 * if-else statement
 * else-if ladder
@@ -16,145 +16,116 @@ decision-making statements decide which statement to execute and when. It evalua
 ### Simple if Statement
 If the boolean expression(condition) evaluates to true then the block of code inside the `if` statement will be executed.
 
-### Ex program `if`
+#### Ex program `if`
 
 ```
 public class simpleIf {
     public static void main(String[] args){
-        int x = 25;
-        if(x<50){
-            System.out.println("This if condition is true");
+        int x = 70;
+        if(x>50){
+            System.out.println("You are Pass!!!");
         }
     } 
 }
  ```
-### Expected output        
-> This if condition is true
+#### Expected output        
+> You are Pass!!!
 
 ### If...Else Statement
 
-Use the else statement to specify a block of code to be executed if the condition is false.
+The Java if-else statement also tests the condition. It executes the `if` block if the condition is `true` , otherwise `else` block is executed.
 
-Syntax:
+#### Ex program `if...else`
 
-```java 
-if (condition) {
-  // block of code to be executed if the condition is true
-} else {
-  // block of code to be executed if the condition is false
+```
+public class ifElse {
+    public static void main(String[] args){
+        int x = 25;
+        if(x>50){
+            System.out.println("You are Pass!");
+        }else{
+            System.out.println("You are Fail");
+        }
+    } 
 }
  ```
+#### Expected output        
+> You are Fail!     
 
-## Example
+### The else-if ladder
 
-<img width="426" alt="image" src="https://user-images.githubusercontent.com/101321694/164680728-39ef3e27-52dc-4466-9b22-49cb3b6bcefe.png">
+The if-else-if ladder statement executes one condition from multiple statements.
 
-Output:
+#### Ex program `else-if` ladder
 
-<img width="361" alt="image" src="https://user-images.githubusercontent.com/101321694/164680858-f0dfc136-ba68-42ba-b84c-3dbefc2a3769.png">
-
-
-# The else if Statement
-
-Use the else if statement to specify a new condition if the first condition is false.
-
-Syntax:
-
-```java
-if (condition1) {
-  // block of code to be executed if condition1 is true
-} else if (condition2) {
-  // block of code to be executed if the condition1 is false and condition2 is true
-} else {
-  // block of code to be executed if the condition1 is false and condition2 is false
+```
+public class elseIf {
+    public static void main(String[] args) {
+        int marks = 75;
+        if (marks < 50) {
+            System.out.println("fail");
+        } else if (marks >= 50 && marks < 60) {
+            System.out.println("D grade");
+        } else if (marks >= 60 && marks < 70) {
+            System.out.println("C grade");
+        } else if (marks >= 70 && marks < 80) {
+            System.out.println("B grade");
+        } else if (marks >= 80 && marks < 90) {
+            System.out.println("A grade");
+        } else if (marks >= 90 && marks <= 100) {
+            System.out.println("S grade");
+        } else {
+            System.out.println("Invalid!");
+        }
+    }
 }
 ```
+#### Expected output        
+> B grade
 
-## Example
+### Nested-if Statements
 
-<img width="461" alt="image" src="https://user-images.githubusercontent.com/101321694/164681419-52922a3e-b984-48f9-bcdb-fc64489ca8a5.png">
+Nested if statements mean an if statement inside an if statement. Yes, java allows us to nest if statements within if statements.
 
-Output:
+#### Ex program `nested-if` condition
 
-<img width="394" alt="image" src="https://user-images.githubusercontent.com/101321694/164681544-f2bf8a5a-972a-48f4-9da4-afe33b11a55c.png">
-
-# Short Hand If...Else
-
-There is also a short-hand if else, which is known as the ternary operator because it consists of three operands.
-It can be used to replace multiple lines of code with a single line, and is most often used to replace simple if else statements:
-
-Syntax:
-
-```java
-variable = (condition) ? expressionTrue : expressionFalse;
 ```
+public class nestedIf {
+    public static void main(String[] args) {
+        int products = 5;
+        int price = 4000;
+        if (products >= 5) {
+            if (price >= 3000) {
+                System.out.println("You are eligible for 50% discount");
+            }else{
+                System.out.println("You are not eligible for discount");
+            }
+        }else{
+            System.out.println("Purchase minimum 5 products to avail a chance for 50%  off");
 
-## Example
-
-<img width="557" alt="image" src="https://user-images.githubusercontent.com/101321694/164684055-8f4b921b-3724-48ad-92a4-94b2c2baa133.png">
-
-Output:
-
-<img width="393" alt="image" src="https://user-images.githubusercontent.com/101321694/164684153-d2e52543-d088-4f68-8d3f-b71bbb714fa6.png">
-
-# Java Switch Statements
-
-Use the switch statement to select one of many code blocks to be executed.
-
-Syntax:
-
-```java
-switch(expression) {
-  case x:
-    // code block
-    break;
-  case y:
-    // code block
-    break;
-  default:
-    // code block
+        }
+    }
 }
  ```
+#### Expected output        
+> You are eligible for 50% discount
 
-This is how it works:
+### Switch Statements
 
-- The switch expression is evaluated once.
-- The value of the expression is compared with the values of each case.
-- If there is a match, the associated block of code is executed.
+Nested if statements mean an if statement inside an if statement. Yes, java allows us to nest if statements within if statements.
 
-## Example
+#### Ex program `switch`
 
-<img width="458" alt="image" src="https://user-images.githubusercontent.com/101321694/164684653-60cc1e73-365e-4061-87da-f427783759b7.png">
+```
 
-Output:
-
-<img width="405" alt="image" src="https://user-images.githubusercontent.com/101321694/164684743-139d4b31-590c-4f87-a2ec-39ef5eb6cb0a.png">
-
-# The break Keyword
-
-When Java reaches a break keyword, it breaks out of the switch block.
-This will stop the execution of more code and case testing inside the block.
-When a match is found, and the job is done, it's time for a break. There is no need for more testing.
-
-# The default Keyword
-
-The default keyword specifies some code to run if there is no case match:
-
-## Example
-
-<img width="497" alt="image" src="https://user-images.githubusercontent.com/101321694/164685028-40a42c9a-917d-4ba1-8f0d-6db7b4ab6119.png">
-
-Output:
-
-<img width="344" alt="image" src="https://user-images.githubusercontent.com/101321694/164685111-f3ab25bc-736c-4dfb-a7d0-82297e1d12b4.png">
+```
+#### Expected output        
+> You are eligible for 50% discount
 
 
-# Loops
+### Looping Statements
 
-Loops can execute a block of code as long as a specified condition is reached.
-Loops are handy because they save time, reduce errors, and they make code more readable.
 
-# Java While Loop
 
 The while loop loops through a block of code as long as a specified condition is true:
 
