@@ -124,101 +124,30 @@ Nested if statements mean an if statement inside an if statement. Yes, java allo
 
 
 ### Looping Statements
+Loops in programming allow a set of instructions to be executed repeatedly until a certain condition is fulfilled. Let's learn about various loops in java.
+* `for` loop
+* `while` loop
+* `do...while` loop
 
-
-
-The while loop loops through a block of code as long as a specified condition is true:
-
-Syntax:
-
-```java 
-while (condition) {
-  // code block to be executed
-} 
+### `For` Loop
+A for loop allows you to efficiently run a loop that needs to execute a specific number of times. When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+#### `for` loop Ex program
 ```
-## Example
-
-<img width="431" alt="image" src="https://user-images.githubusercontent.com/101321694/164884128-b041d7c3-b2f5-4e6d-96d6-dcf37a7d1775.png">
-
-Output:
-
-<img width="379" alt="image" src="https://user-images.githubusercontent.com/101321694/164884144-0c83e180-f65d-4155-a7f6-47c2602b8208.png">
-
-# The Do/While Loop
-
-The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
-
-Syntax:
-
-```java
-do {
-  // code block to be executed
-}
-while (condition);
-```
-
-The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:
-
-## Example
-
-<img width="419" alt="image" src="https://user-images.githubusercontent.com/101321694/164884190-74b41bcf-18f4-44cc-a69a-0f43346834e5.png">
-
-Output:
-
-<img width="378" alt="image" src="https://user-images.githubusercontent.com/101321694/164884206-c0b5e030-fded-4db4-a291-5a1416cc27e8.png">
-
-# Java For Loop
-
-When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
-
-Syntax:
-
-```java
-for (statement 1; statement 2; statement 3) {
-  // code block to be executed
+public class forLoop {
+    public static void main(String[] args){
+        for(int i=0;i<=5;i++){
+            System.out.println(i);
+        }
+    }  
 }
 ```
-Statement 1 is executed (one time) before the execution of the code block.
-Statement 2 defines the condition for executing the code block.
-Statement 3 is executed (every time) after the code block has been executed.
-
-## Example 1
-
-<img width="425" alt="image" src="https://user-images.githubusercontent.com/101321694/164884276-f850edaf-4f23-42ce-a262-fbc0ed437469.png">
-
-Output:
-
-<img width="376" alt="image" src="https://user-images.githubusercontent.com/101321694/164884289-ccc6cb66-13e2-4044-8673-f2ace00d2f6a.png">
-
-## Example 2
-
-<img width="465" alt="image" src="https://user-images.githubusercontent.com/101321694/164884304-c591f93c-06ea-47be-be44-aee4974e207c.png">
-
-Output:
-
-<img width="347" alt="image" src="https://user-images.githubusercontent.com/101321694/164884322-c899b246-ae62-4534-87f3-3991cc95b402.png">
-
-
-
-# For-Each Loop
-
-There is also a "for-each" loop, which is used exclusively to loop through elements in an array:
-
-Syntax:
-
-```java 
-for (type variableName : arrayName) {
-  // code block to be executed
-}
-```
-
-## Example
-
-<img width="466" alt="image" src="https://user-images.githubusercontent.com/101321694/164884362-60fea6c3-2721-4a39-9af6-3ea8b4cef676.png">
-
-Output:
-
-<img width="380" alt="image" src="https://user-images.githubusercontent.com/101321694/164884373-d6f9c8c0-658a-4013-87ae-21095a44ff45.png">
+#### Expected output
+>0
+>1
+>2
+>3
+>4
+>5
 
 # Java Break
 
