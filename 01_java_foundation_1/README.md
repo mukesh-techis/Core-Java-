@@ -40,10 +40,14 @@ In Terminal/command prompt:
 
 ### Start your first project
 
-**Print** _Hello world_.    
-
-
-When you save a java program save the file with the extension of .java (i.e) index.java
+Let us print `Hello World!`
+#### Rule to rule Java.
+* File Extension: .java (i.e) Index.java
+* Main class name and the file name should be the same
+* Class names start with an upper case letter
+* Method names start with a lower case letter
+* Multi-word identifiers are internally capitalized. (i.e) `ageofperson = 18;` can be written as `ageOfPerson = 18;` which is technically said to be camelCase. 
+* Use descriptive names for all variables, function names, constants, and other identifiers.
 
 ```
 public class index{
@@ -52,6 +56,7 @@ public class index{
    }
 }
 ```
+
 #### sample output:      
 >Hello World!
 
