@@ -192,9 +192,46 @@ public class dowhileEx {
 #### Expected output
 >value of x:10
 
->>>There is something called Enhanced for loop. It basically we can learn that once we get 
 
+##### There is something called *Enhanced for loop.* It is basically of array method so we can learn that concept once we get into array. 
 
+### Jump Statements
+1.break             
+2.continue
+
+#### Break
+The `break` keyword is used to stop the entire loop. It must be used inside the loops or the switch statements.
+### Ex program for `break`
+```
+class breakEx{
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            if (i == 3) {   //using an if condition inside for loop.
+                break;
+            }
+            System.out.println(i);
+        }
+    }
+}
+```
+#### Expected output
+>1                  
+>2
+### Continue
+The continue keyword can be used in any of the loop control structures.It causes to the loop immediately jump to the next iteration of the loop.
+#### Ex program `continue`
+```
+public class continueEx {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            if (i == 3) { // Skip 3 and continue the iteration
+                continue;
+            }
+            System.out.println(i);
+        }
+    }   
+}
+```
 
 
 
