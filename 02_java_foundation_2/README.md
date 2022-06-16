@@ -232,6 +232,13 @@ public class continueEx {
     }   
 }
 ```
+#### Expected output
+> 1             
+> 2             
+> 4             
+> 5                     
+#
+
 
 
 
