@@ -41,7 +41,7 @@ In Terminal/command prompt:
 ### Start your first project
 
 Let us print `Hello World!`
-#### Rule to rule Java.
+#### Rules to rule Java.
 * File Extension: .java (i.e) Index.java
 * Main class name and the file name should be the same
 * Class names start with an upper case letter
