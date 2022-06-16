@@ -21,14 +21,14 @@
 In Terminal/command prompt:
 
       java –-version       
- ### Expected output
+ #### Expected output
 >java 18.0.1.1 2022-04-22     
 >Java(TM) SE Runtime Environment (build 18.0.1.1+2-6)    
 >Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)        
  
  
       javac --version      
-### Expected output     
+#### Expected output     
 >javac 18.0.1.1
 
 **S-3:** In Visual Studio code install Java extension pack 
@@ -52,7 +52,7 @@ public class index{
    }
 }
 ```
-### sample output:      
+#### sample output:      
 >Hello World!
 
 ***_Lets not worry about the methods, syntax and statics., however we’ll be learning those concepts in upcoming topics._***
@@ -170,7 +170,7 @@ There are two data types available in java. They are,
 There are eight primitive data types that are supported by java. Let us know a bit more about when and where to use it.			
 <p align="center"><img src="https://github.com/mukesh-techis/Core-Java-/blob/main/img/datatypeTable.png?raw=true" width="600"/></p>		
 
-### Example program to understand all data types		
+#### Example program to understand all data types		
 		
 ```
 class sample{
@@ -195,7 +195,7 @@ class sample{
 }	
 ```		
 
-### Expected output		
+#### Expected output		
 			
 >100    
 >123    
@@ -224,7 +224,7 @@ Operator is a special symbol that is used to perform operations. There are few t
 
 ### Arithmetic Operators
 The arithmetic operators are used to perform various arithmetic operations such as algebraic functions. The few Arithmetic operators are +,-,*,/,%,++,-- etc.		
-### Ex program for Arithmetic operators   
+#### Ex program for Arithmetic operators   
 ```
 public class arith {
     public static void main(String[] args){
@@ -243,7 +243,7 @@ public class arith {
 }			
 ```	
 
-### Expected Output 
+#### Expected Output 
 >a+b is :30	     
 >b-a is :30    
 >a*b is :200       
@@ -259,7 +259,7 @@ public class arith {
 ### Relational operators    
 Relational operators are used to check the relationship between two operands.
 The few relational operators are  == , < , > , <= , >= , != etc.    
-### Ex program for Relational operators   
+#### Ex program for Relational operators   
 ```
 public class relationalex {
     public static void main(String[] args){
@@ -274,7 +274,7 @@ public class relationalex {
     }   
 }
 ```      
-### Expected Output        
+#### Expected Output        
 >false       
 >true          
 >false          
@@ -287,7 +287,7 @@ The Logical operators are,
 - AND &&
 - OR ||
 - NOT !            
-### Ex program for logical operators        
+#### Ex program for logical operators        
 ```
 public class logicalex {
     public static void main(String[] args){
@@ -299,7 +299,7 @@ public class logicalex {
     }   
 }
 ```            
-### Expected output          
+#### Expected output          
 >a && b = false               
 >a || b = true              
 >!(a && b) = true             
@@ -307,7 +307,7 @@ public class logicalex {
 ### Assignment operator           
 There are following assignment operators supported by java.      
 They are = , += , -= , *= , /= , %= , <<= , >>= , &= , ^= , |= etc.           
-### Ex program for assignment operator
+#### Ex program for assignment operator
 ```
 public class assignex {
     public static void main(String[] args){
@@ -343,7 +343,7 @@ public class assignex {
     }   
 }
 ```                
-### Expected output         
+#### Expected output         
 >c = a+b is 30        
 >c += a is 40              
 >c -= a is 30             
@@ -358,7 +358,7 @@ public class assignex {
 ### Conditional operator(?:)          
 Conditional operator is also termed as ternary operator. The Ternary operator is written as,           
 `Variable x=(Expression)?value if true:value if false`        
-### Ex program
+#### Ex program
 ```
 public class condionalEx {
     public static void main(String[] args){
@@ -368,10 +368,8 @@ public class condionalEx {
     }   
 }
 ```
-### Expected output           
+#### Expected output           
 >Even
-
-#
 
 # Control Statements        
 Java provides statements that can be used to control the flow of Java code. Such statements are called control statements. It is one of the fundamental features of Java, which provides a smooth flow of program.          
@@ -612,30 +610,3 @@ public class continueEx {
 > 2             
 > 4             
 > 5                     
-#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
