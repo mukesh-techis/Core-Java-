@@ -22,6 +22,21 @@ public class model{
 ```
 ### Object
 Object is the basic runtime entity of any object oriented application. They are called as the instance of a class. In reality Objects are the memory location that contains the member data and the methods defined in a class.
+#### Ex program to create an object
+```
+class Student{  
+ int id;  
+ String name;  
+}  
+class TestStudent2{  
+ public static void main(String args[]){  
+  Student s1=new Student();  
+  s1.id=101;  
+  s1.name="Sonoo";  
+  System.out.println(s1.id+" "+s1.name);//printing members with a white space  
+ }  
+}  
+```
 ### Inheritence
 In Java classes can be derived from classes. Basically if you need to create a new class and here is already a class that has some of the code you require, then it is possible to derive your new class from the already existing code.
 This concept allows you to reuse the fields and methods of the existing class without rewriting the code in a new class. In this case, Existing class is called super class and the derived class is called the subclass.
