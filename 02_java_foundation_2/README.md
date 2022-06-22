@@ -24,17 +24,16 @@ public class model{
 Object is the basic runtime entity of any object oriented application. They are called as the instance of a class. In reality Objects are the memory location that contains the member data and the methods defined in a class.
 #### Ex program to create an object
 ```
-class Student{  
- int id;  
- String name;  
-}  
-class TestStudent2{  
- public static void main(String args[]){  
-  Student s1=new Student();  
-  s1.id=101;  
-  s1.name="Sonoo";  
-  System.out.println(s1.id+" "+s1.name);//printing members with a white space  
- }  
+public class Math{
+    int x = 7;
+    int y = 5;
+    void add(){
+        System.out.println(x+y);
+    }
+    public static void main(String[] args){
+        Math addition=new Math(); //creating an object
+        addition.add();
+    }
 }  
 ```
 ### Inheritence
