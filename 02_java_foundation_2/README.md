@@ -16,10 +16,18 @@ A class in java can contain:
 * block
 #### Ex program to create a class
 ```
-public class model{
-  int x = 5;
+public class ClassEx { // main class
+    public static void main(String[] args){ //main method
+        int x = 4;
+        int y = 5;
+        int c = x+y;
+        System.out.println(c);
+    }
+    
 }
 ```
+#### Expected output
+>9    
 ### Object
 Object is the basic runtime entity of any object oriented application. They are called as the instance of a class. In reality Objects are the memory location that contains the member data and the methods defined in a class.
 #### Ex program to create an object
@@ -27,7 +35,7 @@ Object is the basic runtime entity of any object oriented application. They are 
 public class Math{
     int x = 7;
     int y = 5;
-    void add(){
+    void add(){ // method
         System.out.println(x+y);
     }
     public static void main(String[] args){
