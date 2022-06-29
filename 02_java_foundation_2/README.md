@@ -59,7 +59,37 @@ There are few types of Inheritence concepts. let's discuss about it one by one.
 #### Single Inheritence
 In single inheritance, a single subclass extends from a single superclass.
 #### Ex program to create an object
+```
+class Animal {
+
+    String name;
+
+    public void eat() {
+        System.out.println("I can eat");
+    }
+}
+
+class Dog extends Animal { // inherit from Animal
+
+    public void display() { // new method in subclass
+        System.out.println("My name is " + name);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+
+        // create an object of the subclass
+        Dog labrador = new Dog();
+        labrador.name = "Tomy";
+        labrador.display();
+        labrador.eat();
+    }
+}
+```
 #### Expected output
+>My name is Tomy        
+>I can eat
 #### Multi-level Inheritence
 In multilevel inheritance, a subclass extends from a superclass and then the same subclass acts as a superclass for another class.
 #### Ex program to create an object
