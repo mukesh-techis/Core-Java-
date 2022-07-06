@@ -58,7 +58,7 @@ There are few types of Inheritence concepts. let's discuss about it one by one.
 * Multiple Inheritence(not supported by java).
 #### Single Inheritence
 In single inheritance, a single subclass extends from a single superclass.
-#### Ex program to create an object
+#### Ex program to create Single Inheritence
 ```
 class Animal {
 
@@ -92,31 +92,33 @@ class Main {
 >I can eat
 #### Multi-level Inheritence
 In multilevel inheritance, a subclass extends from a superclass and then the same subclass acts as a superclass for another class.
-#### Ex program to create an object
+#### Ex program to create Multi-level Inheritence
 #### Expected output
 #### Hierarchical Inheritence
 In hierarchical inheritance, multiple subclasses extend from a single superclass.
-#### Ex program to create an object
+#### Ex program to create Hierarchical Inheritence
 #### Expected output
 #### Hybrid Inheritence
 Hybrid inheritance is a combination of two or more types of inheritance.
-#### Ex program to create an object
+#### Ex program to create Hybrid Inheritence
 #### Expected output
 #### Multiple Inheritence
-#### Ex program to create an object
+#### Ex program to create Multiple Inheritence
 #### Expected output
 ### Abstraction
 Abstraction is the process of hiding implementation details. In other words it is providing the specification for methods.          
 Abstraction can be achieved through two methods     
-1.Abstract class            
+1.Abstract class 
+_Abstract class
+_Abstract Method
 2.Interfaces
-#### Ex program to create an object
+#### Ex program to create Abstraction
 #### Expected output
 ### Polymorphism
 Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
-#### Ex program to create an object
+#### Ex program to create Polymorphism
 #### Expected output
 ### Encapsulation
 The process of binding data and corresponding methods (behavior) together into a single unit is called encapsulation in Java.
-#### Ex program to create an object
+#### Ex program to create Encapsulation
 #### Expected output
