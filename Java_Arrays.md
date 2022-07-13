@@ -7,17 +7,17 @@ An array is a collection of similar types of data.The number of values in a Java
 ```
 class ArrayEx {
     public static void main(String[] args) {
-        int ageOfPerson[]=new int[5];
+        int ageOfPerson[]=new int[5];//Array creation
         ageOfPerson[0]=12;
         ageOfPerson[1]=20;
         ageOfPerson[2]=5;
         ageOfPerson[3]=24;
-        ageOfPerson[4]=47;
-        System.out.println(ageOfPerson[0]);
-        System.out.println(ageOfPerson[1]);
-        System.out.println(ageOfPerson[2]);
-        System.out.println(ageOfPerson[3]);
-        System.out.println(ageOfPerson[4]);
+        ageOfPerson[4]=46;
+        System.out.println(ageOfPerson[0]+"\n");//print one value of an array
+        //To print whole Array use for loop
+        for(int i=0;i<ageOfPerson.length;i++){
+            System.out.println("\n"+ageOfPerson[i]);//Print the whole array
+        }
     }
 }
 ```
